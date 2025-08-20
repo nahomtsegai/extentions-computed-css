@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Computed CSS Inspector — Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Computed CSS Inspector (Playground)</h1>
+    <div class="row">
+      <button id="toggleHover">Hover: OFF</button>
+      <input id="selector-input" type="text" placeholder="CSS selector (press Enter)" />
+      <button id="copy-last">Copy Last</button>
+    </div>
+    <pre id="output"></pre>
+    <p class="hint">Tip: Press <strong>M</strong> to toggle hover. Press <strong>C</strong> to copy tooltip JSON. Press <strong>Esc</strong> to exit hover.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

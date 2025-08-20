@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+
+# Node/editor
+node_modules/
+dist/
+*.log
+
+# macOS extracted zips
+__MACOSX/
