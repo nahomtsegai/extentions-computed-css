@@ -1,0 +1,15 @@
+{
+  "name": "computed-css-inspector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension to inspect computed CSS (golden baseline).",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && node scripts/build-zip.js",
+    "release": "npm run build && git tag v$npm_package_version && git push && git push --tags"
+  },
+  "devDependencies": {
+    "archiver": "^6.0.2",
+    "rimraf": "^5.0.7"
+  }
+}
