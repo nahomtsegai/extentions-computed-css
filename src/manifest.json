@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Computed CSS Inspector (Playground Hover OFF + Placeholder)",
+  "name": "Computed CSS Inspector",
   "version": "1.2.0",
   "description": "Hover OFF by default with JSON tooltip and cyan/magenta placeholder in popup.",
   "permissions": [
